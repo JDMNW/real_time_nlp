@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time NLP Application</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Real-Time NLP Application</h1>
+    <p>Named Entity Recognition + Sentiment Analysis</p>
+
+    <textarea id="textInput" placeholder="Enter a sentence..."></textarea>
+    <button onclick="analyzeText()">Analyze</button>
+
+    <h2>Sentiment</h2>
+    <p id="sentimentResult">---</p>
+
+    <h2>Named Entities</h2>
+    <ul id="entityResult"></ul>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
